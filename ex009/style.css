@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(190, 255, 233, 0.606);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(2, 186, 2);
+}
+
+h2 {
+    color: black;
+    width: 300px;
+}
+
+#principal {
+    color: white;
+    text-align: center; 
+    background-color: green;
+}
+
+.advanced {
+    background-color: red;
+}
+
+.intermediary {
+    background-color: yellow;
+}
+
+.basic {
+    background-color: green;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color:black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color:yellow;
+        }
+
+        .important::before {
+            content: '→';
+        }
+
+        .important::after {
+            content: '←';
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Styling Links</h1>
+    <ul>
+        <li> <a href="https://google.com"target="_blank">Google</a></li>
+        <li><a href="https://youtube.com"target="_blank" class="important">Youtube</a></li>
+        <li><a href="https://youtube.com/cursoemvideo"target="_blank">Curso em Video</a></li>
+    </ul>
+</body>
+</html>
